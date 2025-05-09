@@ -10,7 +10,7 @@ export const hero = {
 export const startDate = "August 1, 2021";
 
 export const about = {
-  heading: "Hi, I am Angel Gupta!",
+  heading: "Hi, I am Angel!",
   professionalInfo:
     "I’m someone who finds joy in building — whether it’s technology, ideas, or connections. I believe in creating solutions that not only work but genuinely make a difference. From developing user-friendly web applications to exploring new tools in cloud computing, machine learning, and DevOps, I’m always excited to learn, grow, and share what I discover.",
   personalInfo:
@@ -23,10 +23,6 @@ export const skills = [
   {
     name: "ReactJS",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-  },
-  {
-    name: "NextJS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
   },
   {
     name: "NodeJS",
@@ -48,30 +44,7 @@ export const skills = [
     name: "Python",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
   },
-  {
-    name: "Linux",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
-  },
-  {
-    name: "Docker",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-  },
-  {
-    name: "Django",
-    icon: "https://static.djangoproject.com/img/logos/django-logo-negative.png",
-  },
-  {
-    name: "Flask",
-    icon: "/assets/tech-logo/Flask.png",
-  },
-  {
-    name: "Azure",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
-  },
-  {
-    name: "AWS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg",
-  },
+
 ];
 
 export const timeline = [
@@ -122,7 +95,7 @@ export const timeline = [
 export const socials = [
   {
     name: "Email",
-    url: "mailto:angelgupta13@gmail.com",
+    url: "mailto:angelgupta16@gmail.com",
   },
   {
     name: "LinkedIn",
@@ -132,13 +105,13 @@ export const socials = [
     name: "GitHub",
     url: "https://github.com/Angelgupta13",
   },
-  {
-    name: "Peerlist",
-    url: "https://www.youtube.com/@AlfaStrekFitness", // Replace with your actual YouTube channel URL
-  },
- 
+  // {
+  //   name: "Peerlist",
+  //   url: "https://www.youtube.com/@AlfaStrekFitness", // Replace with your actual YouTube channel URL
+  // },
+
   {
     name: "X",
-    url: "https://x.com/alfatechdev", // Replace with your actual Twitter URL
+    url: "https://x.com/Angelgupta83315", // Replace with your actual Twitter URL
   },
 ];

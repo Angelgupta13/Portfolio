@@ -15,8 +15,7 @@ const About = () => {
 
       <Skills skills={skills} />
 
-      <Experiences timeline={timeline} />
-    </>
+        </>
   );
 };
 

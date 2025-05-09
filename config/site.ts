@@ -1,12 +1,12 @@
 import { SiteConfig } from "@/types/types";
 
 export const siteConfig: SiteConfig = {
-  name: "Aradhya",
-  description: "Portfolio of Aradhya Shukla",
-  author: "Aradhya",
+  name: "Angel Gupta",
+  description: "Portfolio of Angel Gupta",
+  author: "Angel Gupta",
   url: "https://portfolio-34r6.vercel.app/",
   ogImage: "hhttps://portfolio-34r6.vercel.app/og.jpg",
   links: {
-    github: "https://github.com/alfastrek/portfolio",
+    github: "https://github.com/Angelgupta13/Portfolio",
   },
 };

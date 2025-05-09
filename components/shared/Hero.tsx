@@ -16,14 +16,18 @@ const Landing = () => {
           <TypingAnimation text="Full-Stack Developer and Tech Enthusiast ." />
         </h1>
         <div className="flex justify-center space-x-4 mb-4 mt-20">
-          <Link href="mailto:aradhya1703@gmail.com" passHref>
+          <Link href="mailto:angelgupt16@gmail.com" passHref>
             <ShimmerButton className="shadow-2l">
               <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
                 Contact
               </span>
             </ShimmerButton>
           </Link>
-          <Link href="/resume.pdf" target="_blank" passHref>
+          <Link
+            href="https://drive.google.com/file/d/1u6Vsc3-28pNaM_gzjkBFRAZJvj9TTMiW/view?usp=drivesdk"
+            target="_blank"
+            passHref
+          >
             <ShimmerButton className="shadow-2l">
               <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
                 Resume

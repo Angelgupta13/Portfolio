@@ -27,8 +27,7 @@ export const metadata: Metadata = {
     default: siteConfig.name,
     template: `%s | ${siteConfig.name}`,
   },
-  description:
-    "Welcome to Aradhya Shukla's portfolio! I am a passionate full-stack developer and AI enthusiast, specializing in creating scalable, efficient, and user-friendly web applications.",
+  description: "Welcome to Angel Gupta's portfolio!.",
   category: "portfolio",
   keywords: [
     "Next.js",
@@ -52,24 +51,24 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: siteConfig.url,
-    title: "Aradhya Shukla - Portfolio",
+    title: "Angel Gupta",
     description:
-      "Showcasing projects, skills, and experiences of Aradhya Shukla, a full-stack developer and AI enthusiast.",
+      "Showcasing projects, skills, and experiences of Angel Gupta, a full-stack developer and AI enthusiast.",
     siteName: siteConfig.name,
     images: [
       {
         url: "/social-preview-image.png",
         width: 1200,
         height: 630,
-        alt: "Aradhya Shukla Portfolio Preview",
+        alt: "Angel Gupta Portfolio Preview",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aradhya Shukla - Portfolio",
+    title: "Angel Gupta - Portfolio",
     description:
-      "Discover the projects, skills, and experiences of Aradhya Shukla, a full-stack developer and AI enthusiast.",
+      "Discover the projects, skills, and experiences of Angel Gupta, a full-stack developer and AI enthusiast.",
     images: "https://aradhya.site/assets/social-preview-image.png",
     creator: siteConfig.author,
   },

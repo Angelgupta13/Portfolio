@@ -21,7 +21,7 @@ const Introduction = ({ about }: IntroductionProps) => {
       </div>
       <div className="ml-6">
         <Image
-          src="/self.png" // Replace with your image path
+          src="/self-3.jpg" // Replace with your image path
           alt="Self"
           width={300}
           height={300}

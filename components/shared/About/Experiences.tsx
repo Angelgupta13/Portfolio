@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import TimelineDate from "../Timeline/TimelineDate";
 import TimelineContainer from "../Timeline/TimelineContainer";
 import { ExperiencesProps } from "@/types/types";
-import { timeline } from "@/constants/about";
+
 
 const Experiences = ({ timeline }: ExperiencesProps) => {
   return (

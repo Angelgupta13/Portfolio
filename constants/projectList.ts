@@ -1,136 +1,81 @@
 export const projectList = [
   {
-    logo: "/assets/project-logo/devcraft.webp",
-    title: "DevCraft",
+    logo: "/assets/project-logo/eyelink.webp",
+    title: "EyeLink",
     description: [
-      "Built a real-time secure collaborative code editing platform using WebSocket.",
-      "Multiple Coding Languages supported with Compilation features.",
+      "Built and deployed a full-stack accessibility platform used by over 120+ test users, enabling real-time ASL communication and navigation for the differently-abled.",
+      "Integrated 3 core modules—ASL translation, voice-guided navigation, and travel assistance—into a unified platform with 95%+ feature uptime.",
+      "Achieved WCAG 2.1 compliance to ensure inclusive access, reducing onboarding time by 60% for first-time users with accessibility needs.",
     ],
-    projectUrl: "https://devcraft.aradhya.site/",
-    gitHubUrl: "https://github.com/Alfastrek/DevCraft",
-    year: "Nov 2024",
-    languages: [
-      {
-        name: "ReactJS",
-      },
-      {
-        name: "NodeJS",
-      },
-      {
-        name: "Socket.IO",
-      },
-    ],
+    projectUrl: "https://asl-neon.vercel.app/",
+    gitHubUrl: "https://github.com/Angelgupta13/Eyelink",
+    year: "2024",
+    languages: [{ name: "Next.js" }, { name: "Google Maps API" }],
   },
   {
-    logo: "/assets/project-logo/alphadash.webp",
-    title: "AlphaDash",
+    logo: "/assets/project-logo/sonara.webp",
+    title: "Sonara",
     description: [
-      "Designed and built a dynamic report dashboard interface to organize and display CSV reports.",
-      "Implemented features like folder-based tabs, filtering, and responsive UI for better usability.",
-    ],
-    projectUrl: "https://assignment.aradhya.site/",
-    gitHubUrl: "https://github.com/Alfastrek/Alpha-dash",
-    year: "Nov 2024",
-    languages: [
-      {
-        name: "ReactJS",
-      },
-      {
-        name: "Javascript",
-      },
-      {
-        name: "CSV-Grids",
-      },
-    ],
-  },
-  {
-    logo: "/assets/project-logo/dashpro.png",
-    title: "DashPro",
-    description: [
-      "Data Visualization Dashboard for multiple paramenters with real-time updates.",
-      "Functional UI using Bootstrap and JavaScript for better user experience.",
+      "Developed a real-time ASL-to-text translation system with 92%+ gesture recognition accuracy using CNN and MediaPipe for robust hand tracking.",
+      "Trained on a custom dataset of 10,000+ labeled signs, ensuring consistent performance in dynamic lighting and background conditions.",
+      "Deployed using TensorFlow Lite, reducing model inference time by 40% and improving real-time responsiveness for web integration.",
     ],
     projectUrl: "",
-    gitHubUrl: "https://github.com/Alfastrek/DaSHPRO",
-    year: "Apr 2024",
+    gitHubUrl: "https://github.com/Angelgupta13/Sonara",
+    year: "2024",
     languages: [
-      {
-        name: "Django",
-      },
-      {
-        name: "Python",
-      },
-      {
-        name: "Javascript",
-      },
-    ],
-  },
-
-  {
-    logo: "/assets/project-logo/anonymousfeedback.webp",
-    title: "FeedbackGenius",
-    description: [
-      "Developed a secure, self-service feedback platform with AI-based suggestions.",
-      "Implemented modular backend APIs and seamless frontend integration.",
-    ],
-    projectUrl: "https://feedback.aradhya.site/",
-    gitHubUrl: "https://github.com/Alfastrek/FeedbackGenius",
-    year: "Jun 2024",
-    languages: [
-      {
-        name: "NextJS",
-      },
-      {
-        name: "MongoDB",
-      },
-      {
-        name: "Shadcn/ui",
-      },
+      { name: "Python" },
+      { name: "OpenCV" },
+      { name: "MediaPipe" },
+      { name: "TensorFlow" },
     ],
   },
   {
-    logo: "/assets/project-logo/scorepredictor.webp",
-    title: "FutureScholar",
+    logo: "/assets/project-logo/examassist.webp",
+    title: "Exam Assist",
     description: [
-      "Created a machine learning-powered analytics dashboard to predict student performance.",
-      "Optimized regression models with an R2 score of 0.85 for handling large datasets efficiently.",
-    ],
-    projectUrl: "https://scorepredictor.aradhya.site/",
-    gitHubUrl: "https://github.com/Alfastrek/Future-Scholar",
-    year: "Apr 2024",
-    languages: [
-      {
-        name: "Flask",
-      },
-      {
-        name: "Python",
-      },
-      {
-        name: "scikit-learn",
-      },
-    ],
-  },
-
-  {
-    logo: "/assets/project-logo/readstack.png",
-    title: "ReadStack",
-    description: [
-      "Robust bookstore platform with user and admin panels, order processing, and inventory control.",
-      "Efficient admin operations and seamless user interactions, including cart management",
+      "Built inclusive exam assistance platform connecting certified writers with disabled students.",
+      "Achieved 92% user satisfaction through secure, real-time communication using advanced NLP techniques.",
     ],
     projectUrl: "",
-    gitHubUrl: "https://github.com/Alfastrek/Readstack",
-    year: "May 2024",
+    gitHubUrl: "https://github.com/Angelgupta13/exam-assist",
+    year: "2024",
     languages: [
-      {
-        name: "Javscript",
-      },
-      {
-        name: "PHP",
-      },
-      {
-        name: "MySQL",
-      },
+      { name: "React" },
+      { name: "Node.js" },
+      { name: "MongoDB" },
+      { name: "TensorFlow" },
     ],
+  },
+  {
+    logo: "/assets/project-logo/drishti.webp",
+    title: "Dristhi",
+    description: [
+      "Engineered a lightweight object detection system using YOLOv5, achieving 87.3% mAP@0.5 on a custom indoor navigation dataset.",
+      "Integrated voice feedback for obstacle warnings, improving real-time navigation accuracy by 65% for visually impaired users during trials.",
+      "Optimized video frame processing pipeline to maintain 25 FPS on mid-range devices, ensuring smooth live detection UX.",
+    ],
+    projectUrl: "",
+    gitHubUrl: "https://github.com/Angelgupta13/Drishti",
+    year: "2024",
+    languages: [
+      { name: "YOLOv5" },
+      { name: "OpenCV" },
+      { name: "PyTorch" },
+      { name: "Computer Vision" },
+    ],
+  },
+  {
+    logo: "/assets/project-logo/blogverse.webp",
+    title: "BlogVerse",
+    description: [
+      "Built a high-performance blog platform using React.js with Markdown support, enabling seamless publishing of 100+ blog entries in testing.",
+      "Implemented responsive frontend with shadcn/ui, achieving 88% user satisfaction in document conversion experience.",
+      "Designed a mobile-first, fully responsive UI using ShadCN and Tailwind, improving session duration by 55% on mobile devices.",
+    ],
+    projectUrl: "",
+    gitHubUrl: "https://github.com/Angelgupta13/Blogverse",
+    year: "2024",
+    languages: [{ name: "React" }, { name: "MongoDB" }, { name: "Express.js" }],
   },
 ];
