@@ -1,9 +1,9 @@
 import dynamic from "next/dynamic";
 import Hero from "@/components/shared/Hero";
-import Projects from "@/components/shared/Project/Projects";
+
 import { TimelineExpandableCard } from "@/components/timeline-expandable-card";
 
-
+import ProjectShowcase from "@/components/project-showcase";
 
 const FlickeringGrid = dynamic(
   () => import("@/components/shared/flickering-grid"),
@@ -31,9 +31,8 @@ export default function Home() {
           <Hero />
         </div>
       </div>
-      <Projects />
+      <ProjectShowcase />
       <div className="w-full">
-        
         <TimelineExpandableCard />
       </div>
     </>

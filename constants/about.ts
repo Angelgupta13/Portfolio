@@ -44,7 +44,6 @@ export const skills = [
     name: "Python",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
   },
-
 ];
 
 export const timeline = [
@@ -105,13 +104,13 @@ export const socials = [
     name: "GitHub",
     url: "https://github.com/Angelgupta13",
   },
-  // {
-  //   name: "Peerlist",
-  //   url: "https://www.youtube.com/@AlfaStrekFitness", // Replace with your actual YouTube channel URL
-  // },
+  {
+    name: "Peerlist",
+    url: "https://peerlist.io/angel_gupta",
+  },
 
   {
     name: "X",
-    url: "https://x.com/Angelgupta83315", // Replace with your actual Twitter URL
+    url: "https://x.com/Angelgupta83315",
   },
 ];
